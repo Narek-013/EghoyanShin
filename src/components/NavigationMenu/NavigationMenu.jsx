@@ -1,6 +1,6 @@
 import React from "react";
 import "./NavigationMenu.css";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { imgs } from "../../images/img";
 
 const NavigationMenu = () => {
@@ -13,9 +13,9 @@ const NavigationMenu = () => {
               <img src={imgs.logo} alt="#" />
             </Link>
             <div className="NavLinks">
-              <Link to="/">Գլխավոր</Link>
-              <Link to="/about">Մեր մասին</Link>
-              <Link to="/services">Ծառայություններ</Link>
+              <NavLink to="/">Գլխավոր</NavLink>
+              <NavLink to="/about">Մեր մասին</NavLink>
+              <NavLink to="/services">Ծառայություններ</NavLink>
             </div>
           </div>
           <div className="NavConnect">

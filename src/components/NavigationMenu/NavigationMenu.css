@@ -1,62 +1,70 @@
-.NavigationMenu{
-    background-color: lightgray;
-    padding: 10px 0;    
-    box-shadow: 0px 5px 5px grey;
-    position: sticky;
-    top: 0;
+.NavigationMenu {
+  background-color: lightgray;
+  padding: 10px 0;
+  box-shadow: 0px 5px 5px grey;
+  position: sticky;
+  top: 0;
 }
-.NavMenu{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.NavMenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.LogoAndLinks{
-    display: flex;
-    align-items: center;
-    column-gap: 100px;
+.LogoAndLinks {
+  display: flex;
+  align-items: center;
+  column-gap: 100px;
 }
-.LogoAndLinks > a > img{
-    width: 100px;
-    cursor: pointer;
-}
-
-.NavLinks{
-    display: flex;
-    column-gap: 60px;
+.LogoAndLinks > a > img {
+  width: 100px;
+  cursor: pointer;
 }
 
-.NavLinks a{
-    font-size: 17px;
-    font-weight: 600;
-    letter-spacing: 1.2px;
-    text-decoration: none;
-    color: black;
-    &:hover{
-        text-decoration: underline;
-    }
-}
-.NavConnect{
-    display: flex;
-    align-items: center;
-    column-gap: 80px;
-}
-.mailDiv{
-    display: flex;
-    align-items: center;
-}
-.mailDiv>img{
-    width: 60px;
-}
-.numberBox{
-    display: flex;
-    align-items: center;
-    column-gap: 10px;
-}
-.numberBox>img{
-    width: 35px;
+.NavLinks {
+  display: flex;
+  column-gap: 60px;
 }
 
-.numberDiv{
-    display: flex;
-    flex-direction: column;
+.NavLinks > .active {
+  display: inline-block;
+  border-bottom: 2px solid black;
+  padding-bottom: 2px;
+}
+
+.NavLinks a {
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  text-decoration: none;
+  color: black;
+  &:hover {
+    display: inline-block;
+    border-bottom: 2px solid black;
+    padding-bottom: 2px;
+  }
+}
+.NavConnect {
+  display: flex;
+  align-items: center;
+  column-gap: 80px;
+}
+.mailDiv {
+  display: flex;
+  align-items: center;
+}
+.mailDiv > img {
+  width: 60px;
+}
+.numberBox {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+.numberBox > img {
+  width: 35px;
+}
+
+.numberDiv {
+  display: flex;
+  flex-direction: column;
 }

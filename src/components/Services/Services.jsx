@@ -1,8 +1,12 @@
-import { Link } from "react-router-dom";
+import { Link, Outlet, useNavigate } from "react-router-dom";
 import { ServiceItems } from "./HardCodeService";
 import "./services.css";
+import { useDispatch } from "react-redux";
+import { getParametr } from "../../store/Slices/ShinGroupSlice/shinSlices";
 
 const Services = () => {
+
+  
 
 
 
@@ -40,7 +44,7 @@ const Services = () => {
                 <div key={el.id} className="services__item">
                   <span className="num">{el.id}</span>
                   <h4>
-                    <Link to="/serviceId">{el.title}</Link>
+                    <Link to={`${el.id}`}>{el.title}</Link>
                   </h4>
                   <p>{el.text}</p>
                   <Link to="services-single.html" className="more">
