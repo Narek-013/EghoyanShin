@@ -3,6 +3,6 @@ import { shinGroupReducer } from "./Slices/ShinGroupSlice/shinSlices";
 
 export const store = configureStore({
   reducer: {
-    toDo: shinGroupReducer,
+    shinGroup: shinGroupReducer,
   },
 });

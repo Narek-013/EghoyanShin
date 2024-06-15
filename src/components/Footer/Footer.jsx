@@ -6,11 +6,15 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="container items">
-        <img
-          width={110}
-          src={imgs.logo}
-          alt=""
-        />
+        <Link to="/">
+          <img
+            style={{ cursor: "pointer" }}
+            width={110}
+            src={imgs.logo}
+            alt=""
+          />
+        </Link>
+
         <div className="firstPart">
           <div className="footerText">
             <div className="pagesItems">
@@ -29,32 +33,16 @@ const Footer = () => {
         </div>
         <div className="secontPart">
           <Link to="">
-            <img
-              width={30}
-              src={imgs.tiktok}
-              alt=""
-            />
+            <img width={30} src={imgs.tiktok} alt="" />
           </Link>
           <Link to="">
-            <img
-              width={30}
-              src={imgs.instagram}
-              alt=""
-            />
+            <img width={30} src={imgs.instagram} alt="" />
           </Link>
           <Link to="">
-            <img
-              width={35}
-              src={imgs.whatsApp}
-              alt=""
-            />
+            <img width={35} src={imgs.whatsApp} alt="" />
           </Link>
           <Link to="">
-            <img
-              width={35}
-              src={imgs.viber}
-              alt=""
-            />
+            <img width={35} src={imgs.viber} alt="" />
           </Link>
         </div>
       </div>
