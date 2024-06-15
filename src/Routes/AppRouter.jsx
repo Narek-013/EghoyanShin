@@ -1,32 +1,19 @@
-import { Route, Router, Routes, useRoutes } from "react-router-dom"
+import {useRoutes } from "react-router-dom"
 import Layout from "../Pages/Layout";
-
-// const AppRouter = () => {
-//  const routes = () => {
-//  let routes = useRoutes([
-//     { path: "/", element: <Component1 /> },
-//     { path: "component2", element: <Component2 /> },
-//     ]);
-//   return routes
-//  }
-//     return (
-//       <div>
-//         <Router>
-//           <routes/>
-//         </Router>
-//         {/* <Routes>
-//           <Route path="/" element={<Layout />} ></Route>
-//         </Routes> */}
-
-//       </div>
-//     );
-// }
-
-// export default AppRouter;
+import Home from "../Pages/Home/Home";
+import About from "../Pages/About/About";
+import ServicesPage from "../Pages/ServicesPage/ServicesPage";
+import ServiceId from "../components/Services/ServiceId";
 
 
 const AppRouter = () => {
-  let routes = useRoutes([{ path: "/", element: <Layout /> }]);
+  let routes = useRoutes([
+    {
+      path: "/",
+      element: <Layout />,
+      children: [{ path: "/", element: <Home/> },{path:"/about",element:<About/>},{path:"/services",element: <ServicesPage/>,children:[{path:":id",element:""}]},{path:"/serviceId",element:<ServiceId/>}],
+    },
+  ]);
   return routes;
 };
 export default AppRouter;

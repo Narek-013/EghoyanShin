@@ -1,9 +1,7 @@
 import React from "react";
 import "./NavigationMenu.css";
 import { Link } from "react-router-dom";
-import logo from "../../images/png/Logo.png";
-import phone from "../../images/png/phone.png";
-import mail from "../../images/png/mail.png";
+import { imgs } from "../../images/img";
 
 const NavigationMenu = () => {
   return (
@@ -11,20 +9,22 @@ const NavigationMenu = () => {
       <div className="container">
         <div className="NavMenu">
           <div className="LogoAndLinks">
-            <img src={logo} alt="" />
+            <Link to="/">
+              <img src={imgs.logo} alt="#" />
+            </Link>
             <div className="NavLinks">
               <Link to="/">Գլխավոր</Link>
-              <Link to="/">Մեր մասին</Link>
-              <Link to="/">Ծառայություններ</Link>
+              <Link to="/about">Մեր մասին</Link>
+              <Link to="/services">Ծառայություններ</Link>
             </div>
           </div>
           <div className="NavConnect">
             <div className="mailDiv">
-              <img src={mail} alt="" />
+              <img src={imgs.mail} alt="" />
               <p>eghoyan.shin@mail.ru</p>
             </div>
             <div className="numberBox">
-              <img src={phone} alt="" />
+              <img src={imgs.phone} alt="" />
               <div className="numberDiv">
                 <p>+374-12-34-56-78</p>
                 <p>+374-12-34-56-78</p>
