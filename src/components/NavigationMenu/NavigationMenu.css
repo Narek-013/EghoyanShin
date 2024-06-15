@@ -2,6 +2,8 @@
     background-color: lightgray;
     padding: 10px 0;    
     box-shadow: 0px 5px 5px grey;
+    position: sticky;
+    top: 0;
 }
 .NavMenu{
     display: flex;
@@ -13,7 +15,7 @@
     align-items: center;
     column-gap: 100px;
 }
-.LogoAndLinks>img{
+.LogoAndLinks > a > img{
     width: 100px;
     cursor: pointer;
 }
