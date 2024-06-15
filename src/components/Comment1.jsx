@@ -11,9 +11,9 @@ const Comment1 = () => {
     
     return (
         <div>
-            <button onClick={() => {
+            {/* <button onClick={() => {
                 setx(1)
-            }}>Add id</button>
+            }}>Add id</button> */}
         </div>
     );
 }
