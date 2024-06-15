@@ -1,0 +1,211 @@
+.contactMe {
+  padding-bottom: 77px;
+}
+
+.contactMe h6 {
+  text-align: center;
+  font-size: 34px;
+  color: black;
+  font-weight: 700;
+}
+
+.contact {
+  padding: 0 20px;
+  margin-top: 78px;
+  display: flex;
+  column-gap: 58px;
+  justify-content: space-between;
+  position: relative;
+}
+
+.leftContact {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+
+.infoContactLeft {
+  font-size: 17px;
+  max-width: 400px;
+}
+
+.social {
+  display: flex;
+  column-gap: 10px;
+}
+
+.social > img {
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.formEmail {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 19px;
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.light .formEmail {
+  color: black;
+}
+
+.formArea {
+  display: flex;
+  flex-direction: column;
+  row-gap: 4px;
+}
+
+.formEmail input {
+  width: 100%;
+  border: none;
+  padding: 12px;
+  width: 682px;
+  border-radius: 6px;
+  background-color: rgb(255, 255, 255);
+  outline: none;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  color: black;
+  font-size: 15px;
+  &::placeholder {
+    color: black;
+    opacity: .6;
+    font-size: 15px;
+  }
+  &:focus {
+    border: 1px solid white;
+  }
+}
+
+.textArea {
+  text-transform: capitalize;
+  margin-top: 4px;
+  font-size: 15px;
+  padding: 9px 9px 40px;
+  border: none;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  border-radius: 6px;
+  &::placeholder {
+    color: black;
+    opacity: .6;
+    font-size: 15px;
+  }
+  &:focus {
+    border: 1px solid white;
+  }
+}
+
+.formBtn {
+  margin-top: 10px;
+  background-color: rgb(147, 51, 234);
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  padding: 11px 0;
+  font-size: 15px;
+}
+
+.radSoc {
+  background-color: purple;
+  left: 14px;
+  margin-top: 120px;
+  opacity: 0.7;
+}
+
+.nameClient {
+  text-transform: capitalize;
+}
+
+.changeValue {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+.thanks {
+  width: 100%;
+  background-color: rgb(17, 99, 1);
+  padding: 10px;
+  display: none;
+  justify-content: center;
+  border-radius: 7px;
+}
+
+.blockP {
+  display: flex;
+}
+
+.noneBtn {
+  display: none;
+}
+
+@media only screen and (max-width: 1440px) {
+  .contact {
+    column-gap: 25px;
+    padding: 0 32px;
+  }
+  .formEmail input {
+    max-width: 582px;
+  }
+  .radSoc {
+    margin-top: 210px;
+    max-width: 220px;
+    max-height: 210px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .contact {
+    column-gap: 58px;
+  }
+  .formEmail input {
+    max-width: 482px;
+  }
+  .radSoc {
+    top: 185px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .contactMe h6 {
+    margin-top: 57px;
+  }
+  .contact {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 32px;
+    margin-top: 18px;
+  }
+  .formEmail input {
+    max-width: 382px;
+  }
+  .textArea {
+    max-width: 382px;
+  }
+  .radSoc {
+    top: 460px;
+    max-width: 140px;
+    max-height: 137px;
+  }
+
+  .linkdin,
+  .github {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .formEmail input {
+    max-width: 300px;
+  }
+  .textArea {
+    max-width: 300px;
+  }
+}

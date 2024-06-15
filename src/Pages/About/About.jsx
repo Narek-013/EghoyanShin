@@ -1,8 +1,13 @@
+import AboutContact from "../../components/AboutContact/AboutContact";
+import AboutFirstBlock from "../../components/AboutFirstBlock/AboutFirstBlock";
+import AboutMe from "../../components/AboutMe/AboutMe";
 
 const About = () => {
     return (
-      <div >
-        <h1>about me</h1>
+      <div>
+        <AboutMe/>
+        <AboutFirstBlock/>
+        <AboutContact/>
       </div>
     );
 }

@@ -21,7 +21,7 @@ const NavigationMenu = () => {
           <div className="NavConnect">
             <div className="mailDiv">
               <img src={imgs.mail} alt="" />
-              <p>eghoyan.shin@mail.ru</p>
+              <p>egohyan.shin@gmail.com</p>
             </div>
             <div className="numberBox">
               <img src={imgs.phone} alt="" />
