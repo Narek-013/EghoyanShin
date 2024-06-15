@@ -5,6 +5,8 @@ import tiktok from "../images/png/tiktok.webp";
 import instagram from "./png/Instagram_icon.png";
 import whatsApp from "./png/WhatsApp_icon.png";
 import viber from "./png/viber.webp";
+import aboutImg from "./png/aboutImg.png";
+import aboutMeImg from "./png/aboutMe.jpg"
 
 
 
@@ -16,4 +18,6 @@ export const imgs = {
   instagram,
   whatsApp,
   viber,
+  aboutImg,
+  aboutMeImg,
 };
