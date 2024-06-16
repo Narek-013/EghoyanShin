@@ -3,10 +3,18 @@ import { createSlice } from "@reduxjs/toolkit";
 const shinGroupSlices = createSlice({
   name: "shinGroup",
   initialState: {
-    getId:0
+    contactBtn: false,
+    mailValue: "",
   },
   reducers: {
-    
+    changeBtn(state, { payload }) {
+      state.contactBtn = true;
+      state.mailValue = payload;
+    },
+    changeBtnErr(state) {
+      state.contactBtn = false;
+      state.mailValue = "";
+    },
   },
   extraReducers: (builder) => {},
 });
@@ -14,5 +22,5 @@ const shinGroupSlices = createSlice({
 
 export const selectShinGroup = (state) => state.shinGroup;
 export const shinGroupReducer = shinGroupSlices.reducer;
-export const { } = shinGroupSlices.actions;
+export const { changeBtn, changeBtnErr, seeValue } = shinGroupSlices.actions;
 
