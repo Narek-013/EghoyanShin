@@ -5,8 +5,8 @@ import "./aboutContact.css"
 
 const AboutContact = () => {
     return (
-      <div className="contactMe container" >
-        <h6>Contact Me</h6>
+      <div className="contactMe container">
+        <h6>Կապվեք ինձ հետ</h6>
         <div className="contact">
           <ContactSocialBlock />
           <ContactForm />

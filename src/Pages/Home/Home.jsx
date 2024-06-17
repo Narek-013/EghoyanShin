@@ -1,10 +1,11 @@
+import HomeImgBlock from "../../components/HomeImgBlock/HomeImgBlock";
 import HomeSlider from "../../components/HomeSlider/HomeSlider";
-import Services from "../../components/Services/Services";
 
 const Home = () => {
     return (
-      <div>
-        <HomeSlider/>
+      <div id="/">
+        <HomeSlider />
+        <HomeImgBlock />
       </div>
     );
 }

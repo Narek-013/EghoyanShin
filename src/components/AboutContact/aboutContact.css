@@ -145,6 +145,10 @@
   display: none;
 }
 
+button{
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 1440px) {
   .contact {
     column-gap: 25px;
@@ -209,3 +213,4 @@
     max-width: 300px;
   }
 }
+

@@ -4,7 +4,7 @@ import AboutMe from "../../components/AboutMe/AboutMe";
 
 const About = () => {
     return (
-      <div>
+      <div id="/about">
         <AboutMe/>
         <AboutFirstBlock/>
         <AboutContact/>

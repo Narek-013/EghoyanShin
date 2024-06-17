@@ -44,65 +44,6 @@ const Services = () => {
               </div>
             );
           })}
-
-          {/* <div className="services__item">
-              <span className="num">2</span>
-              <h4>
-                <a href="">Քանդման Աշխատանքներ</a>
-              </h4>
-              <p>
-                Կատարում ենք քանդման աշխատանքներ՝ պահպանելով անվտանգության
-                կանոնները.
-              </p>
-              <a href="services-single.html" className="more">
-                Ավելի մանրամասն
-              </a>
-            </div>
-            <div className="services__item">
-              <span className="num">3</span>
-              <h4>
-                <Link to="">Աղբի եվ ՇինԱղբի Տեղափոխում</Link>
-              </h4>
-              <p>
-                Աղբը և աղբահանությունը կարևոր են մաքրության և հիգիենայի
-                պահպանման համար .
-              </p>
-              <Link to="" className="more">
-                Ավելի մանրամասն
-              </Link>
-            </div>
-            <div className="services__item">
-              <span className="num">4</span>
-              <h4>
-                <Link to="">Կապիտալ Վերանորոգում</Link>
-              </h4>
-              <p>
-                Կատարում ենք ցանկացած տեսակի կապիտալ վերանորոգման աշխատանքներ.
-              </p>
-              <Link to="" className="more">
-                Ավելի մանրամասն
-              </Link>
-            </div>
-            <div className="services__item">
-              <span className="num">5</span>
-              <h4>
-                <Link to="">Սպիտակ Ավազ</Link>
-              </h4>
-              <p>Ձեզ ենք ներկայացնում բարձրակարգ որակ.</p>
-              <Link to="" className="more">
-                Ավելի մանրամասն
-              </Link>
-            </div>
-            <div className="services__item">
-              <span className="num">6</span>
-              <h4>
-                <Link to="">Բանվորական ՈՒժ</Link>
-              </h4>
-              <p>Ձեզ տրամադրում ենք բանվորական ուժ.</p>
-              <Link to="" className="more">
-                Ավելի մանրամասն
-              </Link>
-            </div> */}
         </div>
       </div>
     </section>
