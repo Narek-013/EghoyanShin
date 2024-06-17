@@ -5,7 +5,7 @@ const ContactSocialBlock = () => {
   return (
     <div className="leftContact">
       <h3 className="text-xl font-bold text-white my-2 lightModT">
-        Let&apos;s Connect
+        Եկեք Միացնենք
       </h3>
       <p className="infoContactLeft">
         I&apos;m currently looking for new opportunities, my inbox is always

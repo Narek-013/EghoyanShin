@@ -8,14 +8,14 @@ const ContactForm = () => {
   const thanksP = useRef(null);
   const emailRef = useRef(null);
   const dispatch = useDispatch();
-  const { contactBtn, mailValue } = useSelector(selectShinGroup);
+  const { contactBtn} = useSelector(selectShinGroup);
 
   const sendEmail = (ev) => {
     ev.preventDefault();
 
-    // const serviceId = "service_6muu1yb";
-    // const publicKey = "TcfgM1bUDeOz9R0iP";
-    // const templateId = "template_9hdc2np";
+    const serviceId = "service_ssk6s44";
+    const publicKey = "-usQUM5_CZZI9I2oT";
+    const templateId = "template_tau6mva";
 
     const {
       user_name: { value: user_name },
@@ -29,14 +29,14 @@ const ContactForm = () => {
       message,
     };
 
-    //  emailjs
-    //    .send(serviceId, templateId, templateParams, publicKey)
-    //    .then((response) => {
-    //      console.log("succses");
-    //    })
-    //    .catch((error) => {
-    //      console.log(error);
-    //    });
+     emailjs
+       .send(serviceId, templateId, templateParams, publicKey)
+       .then((response) => {
+        //  console.log("succses");
+       })
+       .catch((error) => {
+         console.log(error);
+       });
 
     btnRef.current.classList.add("noneBtn");
     thanksP.current.classList.add("blockP");
@@ -88,11 +88,11 @@ const ContactForm = () => {
     <div>
       <form className="formEmail" onSubmit={sendEmail}>
         <div className="formArea">
-          <label htmlFor="mail">Անուն</label>
+          <label htmlFor="user_name">Անուն</label>
           <input
             type="text"
             name="user_name"
-            id="mail"
+            id="user_name"
             required
             className="nameClient"
             placeholder="Վահան"
@@ -100,24 +100,24 @@ const ContactForm = () => {
           />
         </div>
         <div className="formArea">
-          <label ref={emailRef} htmlFor="email">
+          <label ref={emailRef} htmlFor="user_email">
             Ձեր Email
           </label>
           <input
             type="email"
             name="user_email"
-            id="email"
+            id="user_email"
             onBlur={seeValues}
             onChange={seeValue}
             required
             maxLength={34}
-            placeholder={"egohyan.shin@gmail.com"}
+            placeholder="egohyan.shin@gmail.com"
           />
         </div>
         <div className="formArea">
           <label htmlFor="message">Նամակ</label>
           <textarea
-            id="w3review"
+            id="message"
             required
             name="message"
             rows="2"
@@ -135,7 +135,7 @@ const ContactForm = () => {
           <button className="formBtn changeValue">Ուղարկել</button>
         )}
         <p ref={thanksP} className="thanks">
-          Շնորհակալություն մեզ հետ կապվելու համար !{" "}
+          Շնորհակալություն մեզ հետ կապվելու համար !
         </p>
       </form>
     </div>
