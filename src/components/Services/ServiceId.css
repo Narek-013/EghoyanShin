@@ -1,0 +1,33 @@
+.serviceId{
+    padding: 80px 0;
+}
+.serviceTitle{
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.imageAndTitle{
+    display: flex;
+    column-gap: 30px;
+
+}
+.imageAndTitle img{
+    width: 600px;
+}
+.serviceText{
+    font-weight: 600;
+    font-size: 24px;
+}
+.textsDiv{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+.serviceText2{
+    font-weight: 600;
+    font-size: 18px;
+}
+.slogan{
+    font-weight: 600;
+    font-size: 16px;
+}
