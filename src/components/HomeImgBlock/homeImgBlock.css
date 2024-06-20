@@ -18,6 +18,7 @@
 .home-grid > img{
     width: 440px;
     height: 410px;
+    object-fit: cover;
     @media (max-width: 1000px) {
     width: 350px;
     height: 300px;

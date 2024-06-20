@@ -33,7 +33,7 @@ const Footer = () => {
         <div className="firstPart">
           <div className="footerText">
             <div className="pagesItems">
-              <NavLink>Մոնտաժ/ԴեՄոնտաժ</NavLink>
+              <NavLink>Մոնտաժ/Դեմոնտաժ</NavLink>
               <NavLink>Քանդման Աշխատանքներ</NavLink>
             </div>
             <div className="pagesItems">
