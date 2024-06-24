@@ -7,7 +7,7 @@ import whatsApp from "./png/WhatsApp_icon.png";
 import viber from "./png/viber.webp";
 import aboutImg from "./png/aboutImg.png";
 import aboutMeImg from "./png/aboutMe.jpg";
-import homeImg2 from "./png/montajmen.jpg";
+import homeImg2 from "./png/homePageImg2.webp";
 import homeImg3 from "./png/homePage3.jpg";
 import homeImg4 from "./png/homePageImg4.jpg";
 import homeImg5 from "./png/homePageImg5jpg.jpg";

@@ -1,33 +1,52 @@
-.serviceId{
-    padding: 80px 0;
+.serviceId {
+  padding: 80px 12px;
+  @media (max-width: 768px) {
+    padding: 40px 12px;
+  }
 }
-.serviceTitle{
-    font-size: 24px;
-    font-weight: 600;
-    padding-bottom: 20px;
+.serviceTitle {
+  font-size: 24px;
+  font-weight: 600;
+  padding-bottom: 20px;
+  @media (max-width: 1024px) {
+    text-align: center;
+  }
 }
-.imageAndTitle{
-    display: flex;
-    column-gap: 30px;
-
-}
-.imageAndTitle img{
-    width: 600px;
-}
-.serviceText{
-    font-weight: 600;
-    font-size: 24px;
-}
-.textsDiv{
-    display: flex;
+.imageAndTitle {
+  display: flex;
+  column-gap: 30px;
+  @media (max-width: 1024px) {
     flex-direction: column;
-    row-gap: 40px;
+    align-items: center;
+    row-gap: 20px;
+  }
 }
-.serviceText2{
-    font-weight: 600;
-    font-size: 18px;
+.imageAndTitle img {
+   width: 48.59%;
+    object-fit: cover;
+    height: 100%;
+    @media (max-width: 1440px) {
+      width: 43%;
+    }
+    @media (max-width: 1024px) {
+      width: 80%;
+      margin-top: 25px;
+    }
 }
-.slogan{
-    font-weight: 600;
-    font-size: 16px;
+.serviceText {
+  font-weight: 600;
+  font-size: 24px;
+}
+.textsDiv {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+.serviceText2 {
+  font-weight: 600;
+  font-size: 18px;
+}
+.slogan {
+  font-weight: 600;
+  font-size: 16px;
 }

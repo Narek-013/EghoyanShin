@@ -1,6 +1,5 @@
 import { useParams } from "react-router-dom";
 import { ServiceItems } from "./HardCodeService";
-import image from "../../images/png/aboutMe.jpg"
 import "./ServiceId.css"
 
 const ServiceId = () => {
@@ -16,7 +15,7 @@ const ServiceId = () => {
               <div className="serviceId" key={el.id}>
                 <p className="serviceTitle">{el.title}</p>
                 <div className="imageAndTitle">
-                  <img src={el.image} alt="" />
+                  <img src={el.image} alt="services_img" />
                   <div className="textsDiv">
                     <p className="serviceText">{el.text}</p>
                     <p className="serviceText2">{el.text2}</p>

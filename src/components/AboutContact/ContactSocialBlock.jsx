@@ -1,20 +1,22 @@
-import {imgs} from "../../images/img.js"
+import { imgs } from "../../images/img.js";
 
 const ContactSocialBlock = () => {
-  
   return (
     <div className="leftContact">
       <h3 className="text-xl font-bold text-white my-2 lightModT">
         Եկեք Միացնենք
       </h3>
       <p className="infoContactLeft">
-        I&apos;m currently looking for new opportunities, my inbox is always
-        open. Whether you have a question or just want to say hi, I&apos;ll try
-        my best to get back to you!
+        Դուք կարող եք կապվել մեզ հետ՝ օգտագործելով հետևյալ տարբերակները
+        հեռախոսահամարով, WhatsApp, Viber, instagram, TikTok
       </p>
       <div className="social">
-        <img src={imgs.whatsApp} alt="instagram img" />
-        <img src={imgs.viber} alt="instagram img" />
+        <span title="+374 77-29-95-61 +374 55-29-05-61">
+          <img src={imgs.whatsApp} alt="instagram img" />
+        </span>
+        <span title={`+374 77-29-95-61 +374 55-29-05-61`}>
+          <img src={imgs.viber} alt="instagram img" />
+        </span>
       </div>
     </div>
   );

@@ -4,7 +4,6 @@ import "./aboutFirstBlock.css"
 
 const AboutFirstBlock = () => {
 
-    // AboutHard
   return (
     <section className="advantages container">
       <div className="advantages__container _container">

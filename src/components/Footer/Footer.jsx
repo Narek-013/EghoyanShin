@@ -1,16 +1,20 @@
 import "./footer.css";
 import { imgs } from "../../images/img";
 import { NavLink, useNavigate } from "react-router-dom";
-import {Link} from "react-scroll";
+import { Link } from "react-scroll";
 
 const Footer = () => {
-
   const navigate = useNavigate();
 
   const changeLocations = () => {
     window.scrollTo({ behavior: "smooth", top: 0 });
     navigate("/");
   };
+
+  const changeLocation1 = () => {
+    window.scrollTo({ behavior: "smooth", top: 0 });
+  };
+
 
   return (
     <div className="footer">
@@ -33,16 +37,16 @@ const Footer = () => {
         <div className="firstPart">
           <div className="footerText">
             <div className="pagesItems">
-              <NavLink>Մոնտաժ/Դեմոնտաժ</NavLink>
-              <NavLink>Քանդման Աշխատանքներ</NavLink>
+              <Link to="/services/1" onClick={changeLocation1}>Մոնտաժ/ԴեՄոնտաժ</Link>
+              <Link to="/services/2" onClick={changeLocation1}>Քանդման Աշխատանքներ</Link>
             </div>
             <div className="pagesItems">
-              <NavLink>Աղբի եվ ՇինԱղբի Տեղափոխում</NavLink>
-              <NavLink>Վերանորոգման Աշխատանքներ</NavLink>
+              <Link to="/services/3" onClick={changeLocation1}>Աղբի եվ ՇինԱղբի Տեղափոխում</Link>
+              <Link to="/services/4" onClick={changeLocation1}>Վերանորոգման Աշխատանքներ</Link>
             </div>
             <div className="pagesItems">
-              <NavLink>Սպիտակ Ավազ</NavLink>
-              <NavLink>Բանվորական ՈՒժ</NavLink>
+              <Link to="/services/5" onClick={changeLocation1}>Սպիտակ Ավազ</Link>
+              <Link to="/services/6" onClick={changeLocation1}>Բանվորական ՈՒժ</Link>
             </div>
           </div>
         </div>
@@ -59,10 +63,10 @@ const Footer = () => {
           >
             <img width={30} src={imgs.instagram} alt="Instagram img" />
           </NavLink>
-          <span title="+374 77-29-95-61">
+          <span title="+374 77-29-95-61 +374 55-29-05-61">
             <img width={35} src={imgs.whatsApp} alt="WhatsApp img" />
           </span>
-          <span title="+374 77-29-95-61">
+          <span title="+374 77-29-95-61 +374 55-29-05-61">
             <img width={35} src={imgs.viber} alt="Viber img" />
           </span>
         </div>

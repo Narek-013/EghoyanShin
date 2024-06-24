@@ -9,29 +9,29 @@ const AboutMe = () => {
             <div className="aboutInfo">
               <h1>Մեր Մասին</h1>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Explicabo facilis nisi autem magnam a alias iste esse, Explicabo
-                facilis nisi autem magnam a alias iste esse, Explicabo facilis
-                nisi autem magnam a alias iste esse, Explicabo facilis nisi
-                autem magnam a alias iste esse, Explicabo facilis nisi autem
-                magnam a alias iste esse, agnam a alias iste esse, Explicabo
-                facilis nisi autem magnam a alias iste esse, Explicabo facilis
-                nisi autem magnam a alias iste esse, Explicabo facilis nisi
-                autem magnam a alias iste esse, agnam a alias iste esse,
-                Explicabo facilis nisi autem magnam a alias iste esse, Explicabo
-                facilis nisi autem magnam a alias iste esse, Explicabo facilis
-                nisi autem magnam a alias iste esse,agnam a alias iste esse,
-                Explicabo facilis nisi autem magnam a alias iste esse, Explicabo
-                facilis nisi autem magnam a alias iste esse, Explicabo facilis
-                nisi autem magnam a alias iste esse, Explicabo facilis nisi
-                autem magnam a alias iste esse, consectetur, nulla ut sint
-                distinctio. Tenetur vitae fugit eius minima ex iure dolores
-                asperiores a praesentium totam neque mollitia earum, eveniet
-                cupiditate, quidem, doloremque provident reiciendis. Aspernatur
-                atque est sed beatae ratione maxime.
+                2014 թվականից ես մասնագիտացել եմ հավաքման/ապամոնտաժման, քանդման
+                աշխատանքների և աղբի և շինարարական աղբահանության համալիր
+                ծառայությունների մատուցման մեջ: Անցած տասնամյակի ընթացքում ես
+                հղկել եմ իմ փորձը տարբեր կառույցների և մեքենաների արդյունավետ
+                հավաքման և ապամոնտաժման գործում՝ ապահովելով մանրակրկիտ
+                ուշադրություն մանրուքների նկատմամբ և պահպանելով անվտանգության
+                արձանագրությունները . Քանդման աշխատանքների ոլորտում ես ղեկավարել
+                եմ տարբեր մասշտաբների նախագծեր՝ սկսած փոքր բնակելի շենքերի
+                քանդումից մինչև խոշոր արդյունաբերական ապակառուցում: Իմ մոտեցումը
+                շեշտը դնում է ճշգրտության և անվտանգության վրա՝ նվազագույնի
+                հասցնելով շրջակա տարածքների ռիսկն ու խանգարումը: Ես օգտագործում
+                եմ առաջադեմ տեխնիկա և սարքավորումներ՝ ապահովելու, որ քանդումն
+                իրականացվում է արդյունավետ և պատասխանատու: Աղբի և շինարարական
+                աղբի հեռացումը իմ ծառայությունների ևս մեկ հիմնական կողմն է: Ես
+                առաջնահերթություն եմ տալիս էկոլոգիապես պատասխանատու հեռացման և
+                վերամշակման պրակտիկաներին՝ ապահովելով, որ բոլոր թափոնները
+                մշակվեն տեղական կանոնակարգերի համաձայն: Մաքրության և
+                կայունության նկատմամբ իմ հանձնառությունը երաշխավորում է, որ
+                ծրագրի վայրերը մնան օպտիմալ վիճակում՝ զերծ բեկորներից և
+                վտանգներից.
               </p>
             </div>
-            <img src={imgs.aboutMeImg} alt="" />
+            <img src={imgs.aboutMeImg} alt="about img" />
           </div>
         </div>
       </div>

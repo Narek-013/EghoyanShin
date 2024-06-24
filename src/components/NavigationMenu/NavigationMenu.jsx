@@ -1,12 +1,15 @@
-import React from "react";
-import "./NavigationMenu.css";
+import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-scroll";
 import { imgs } from "../../images/img";
 import Hamburger from "hamburger-react";
+import NavModal from "../NavModal/NavModal";
+
+import "./NavigationMenu.css";
 
 const NavigationMenu = () => {
   const navigate = useNavigate();
+  const [isOpen, setOpen] = useState(false);
 
   const changeLocation = () => {
     window.scrollTo({ behavior: "smooth", top: 0 });
@@ -73,7 +76,7 @@ const NavigationMenu = () => {
               </Link>
             </div>
             <div className="hamburger">
-              <Hamburger />
+              <Hamburger toggled={isOpen} toggle={setOpen} />
             </div>
           </div>
           <div className="NavConnect">
@@ -84,13 +87,14 @@ const NavigationMenu = () => {
             <div className="numberBox">
               <img src={imgs.phone} alt="phone img" />
               <div className="numberDiv">
-                <p>+374 (077) 299 561</p>
-                <p>+374 (077) 299 561</p>
+                <p>+374-12-34-56-78</p>
+                <p>+374-12-34-56-78</p>
               </div>
             </div>
           </div>
         </div>
       </div>
+      {isOpen && <NavModal setOpen={setOpen} />}
     </div>
   );
 };
