@@ -85,6 +85,12 @@ const Footer = () => {
           >
             <img width={30} src={imgs.instagram} alt="Instagram Img" />
           </NavLink>
+          <a href="https://wa.me/77299561?text=Hello%20World">
+            <img width={35} src={imgs.whatsApp} alt="WhatsApp img" />
+          </a>
+          <a href="viber://chat?number=77299561">
+            <img width={35} src={imgs.viber} alt="Viber img" />
+          </a>
         </div>
         <div className="backInfo">
           <a href="tel:+374 (055) 290 561">+374 (055) 290 561</a>

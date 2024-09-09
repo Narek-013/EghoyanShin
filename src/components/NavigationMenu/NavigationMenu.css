@@ -62,9 +62,7 @@
   display: flex;
   align-items: center;
   column-gap: 80px;
-  @media (max-width: 1199px) {
-    display: none;
-  }
+  
 }
 .mailDiv {
   display: flex;
@@ -97,4 +95,10 @@
   font-size: 15px;
   opacity: 0.7;
   color: black;
+}
+
+@media (max-width: 1199px) {
+    .NavConnect {
+      display: none;
+    }
 }
