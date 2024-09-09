@@ -19,42 +19,39 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="container items">
-        <Link
-          to="/"
-          spy={true}
-          smooth={true}
-          offset={-500}
-          duration={500}
-          onClick={changeLocations}
-        >
-          <img
-            style={{ cursor: "pointer" }}
-            width={100}
-            src={imgs.logo}
-            alt=""
-          />
+        <Link to="/" spy={true} smooth={true} offset={-500} duration={500} onClick={changeLocations}>
+          <img style={{ cursor: "pointer" }} width={100} src={imgs.logo} alt="" />
         </Link>
         <div className="firstPart">
           <div className="footerText">
             <div className="pagesItems">
-              <Link to="/services/1" onClick={changeLocation1}>Մոնտաժ/ԴեՄոնտաժ</Link>
-              <Link to="/services/2" onClick={changeLocation1}>Քանդման Աշխատանքներ</Link>
+              <Link to="/services/1" onClick={changeLocation1}>
+                Մոնտաժ/ԴեՄոնտաժ
+              </Link>
+              <Link to="/services/2" onClick={changeLocation1}>
+                Քանդման Աշխատանքներ
+              </Link>
             </div>
             <div className="pagesItems">
-              <Link to="/services/3" onClick={changeLocation1}>Աղբի եվ ՇինԱղբի Տեղափոխում</Link>
-              <Link to="/services/4" onClick={changeLocation1}>Վերանորոգման Աշխատանքներ</Link>
+              <Link to="/services/3" onClick={changeLocation1}>
+                Աղբի եվ ՇինԱղբի Տեղափոխում
+              </Link>
+              <Link to="/services/4" onClick={changeLocation1}>
+                Վերանորոգման Աշխատանքներ
+              </Link>
             </div>
             <div className="pagesItems">
-              <Link to="/services/5" onClick={changeLocation1}>Սպիտակ Ավազ</Link>
-              <Link to="/services/6" onClick={changeLocation1}>Բանվորական ՈՒժ</Link>
+              <Link to="/services/5" onClick={changeLocation1}>
+                Սպիտակ Ավազ
+              </Link>
+              <Link to="/services/6" onClick={changeLocation1}>
+                Բանվորական ՈՒժ
+              </Link>
             </div>
           </div>
         </div>
         <div className="secondPart">
-          <NavLink
-            to="https://www.tiktok.com/@vahan.egoyan?_t=8nHdpY6ZkbR&_r=1"
-            target="blank"
-          >
+          <NavLink to="https://www.tiktok.com/@vahan.egoyan?_t=8nHdpY6ZkbR&_r=1" target="blank">
             <img width={30} src={imgs.tiktok} alt="Tik Tok img" />
           </NavLink>
           <NavLink
@@ -74,13 +71,10 @@ const Footer = () => {
       <div className="footerBottom container">
         <div className="backInfo">
           <p style={{ fontSize: "15px", opacity: 1 }}>Հետադարձ Կապ</p>
-          <p>eghoyan.shin@gmail.com</p>
+          <a href="mailto:eghoyan.shin@gmail.com">eghoyan.shin@gmail.com</a>
         </div>
         <div className="secondPart1">
-          <NavLink
-            to="https://www.tiktok.com/@vahan.egoyan?_t=8nHdpY6ZkbR&_r=1"
-            target="blank"
-          >
+          <NavLink to="https://www.tiktok.com/@vahan.egoyan?_t=8nHdpY6ZkbR&_r=1" target="blank">
             <img width={30} src={imgs.tiktok} alt="Tik Tok img" />
           </NavLink>
           <NavLink
@@ -91,8 +85,8 @@ const Footer = () => {
           </NavLink>
         </div>
         <div className="backInfo">
-          <p>+374 (077) 299 561</p>
-          <p>+374 (077) 299 561</p>
+          <a href="tel:+374 (055) 290 561">+374 (055) 290 561</a>
+          <a href="tel:+374 (077) 299 561">+374 (077) 299 561</a>
         </div>
       </div>
     </div>

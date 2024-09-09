@@ -17,9 +17,9 @@ function PauseOnHover() {
   return (
     <div className="slider-container">
       <Slider {...settings} className="mobRes">
-        {hardHomeSlider.map((el) => {
+        {hardHomeSlider.map((el,idx) => {
           return (
-            <div className="first">
+            <div className="first" key={idx}>
               <img src={el} alt="#" className="imgSlider" />
             </div>
           );

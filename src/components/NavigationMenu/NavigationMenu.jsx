@@ -29,27 +29,11 @@ const NavigationMenu = () => {
       <div className="container">
         <div className="NavMenu">
           <div className="LogoAndLinks">
-            <Link
-              to="/"
-              onClick={changeLocation}
-              spy={true}
-              smooth={true}
-              offset={-500}
-              duration={500}
-              style={{ cursor: "pointer" }}
-            >
+            <Link to="/" onClick={changeLocation} spy={true} smooth={true} offset={-500} duration={500} style={{ cursor: "pointer" }}>
               <img src={imgs.logo} alt="#" />
             </Link>
             <div className="NavLinks">
-              <Link
-                style={{ cursor: "pointer" }}
-                to="/"
-                spy={true}
-                smooth={true}
-                offset={-500}
-                duration={500}
-                onClick={changeLocation}
-              >
+              <Link style={{ cursor: "pointer" }} to="/" spy={true} smooth={true} offset={-500} duration={500} onClick={changeLocation}>
                 Գլխավոր
               </Link>
               <Link
@@ -82,13 +66,13 @@ const NavigationMenu = () => {
           <div className="NavConnect">
             <div className="mailDiv">
               <img src={imgs.mail} alt="mail img" />
-              <p>eghoyan.shin@gmail.com</p>
+              <a href="mailto:eghoyan.shin@gmail.com">eghoyan.shin@gmail.com</a>
             </div>
             <div className="numberBox">
               <img src={imgs.phone} alt="phone img" />
               <div className="numberDiv">
-                <p>+374-12-34-56-78</p>
-                <p>+374-12-34-56-78</p>
+                <a href="tel:+374 (055) 290 561">+374 (055) 290 561</a>
+                <a href="tel:+374 (077) 299 561">+374 (077) 299 561</a>
               </div>
             </div>
           </div>

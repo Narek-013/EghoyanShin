@@ -6,6 +6,10 @@
   display: flex;
   align-items: center;
   column-gap: 38px;
+  @media (max-width:1226px) {
+    flex-direction: column-reverse;
+    row-gap: 38px;
+  }
 }
 .leftBlock {
   background-color: rgb(228, 228, 228);
