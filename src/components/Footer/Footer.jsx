@@ -11,8 +11,10 @@ const Footer = () => {
     navigate("/");
   };
 
-  const changeLocation1 = () => {
+  const changeLocation1 = (num) => {
     window.scrollTo({ behavior: "smooth", top: 0 });
+    navigate(`/services/${num}`);
+    
   };
 
 
@@ -25,26 +27,26 @@ const Footer = () => {
         <div className="firstPart">
           <div className="footerText">
             <div className="pagesItems">
-              <Link to="/services/1" onClick={changeLocation1}>
+              <Link to="/services/1" onClick={() => changeLocation1(1)}>
                 Մոնտաժ/ԴեՄոնտաժ
               </Link>
-              <Link to="/services/2" onClick={changeLocation1}>
+              <Link to="/services/2" onClick={() => changeLocation1(2)}>
                 Քանդման Աշխատանքներ
               </Link>
             </div>
             <div className="pagesItems">
-              <Link to="/services/3" onClick={changeLocation1}>
+              <Link to="/services/3" onClick={() => changeLocation1(3)}>
                 Աղբի եվ ՇինԱղբի Տեղափոխում
               </Link>
-              <Link to="/services/4" onClick={changeLocation1}>
+              <Link to="/services/4" onClick={() => changeLocation1(4)}>
                 Վերանորոգման Աշխատանքներ
               </Link>
             </div>
             <div className="pagesItems">
-              <Link to="/services/5" onClick={changeLocation1}>
+              <Link to="/services/5" onClick={() => changeLocation1(5)}>
                 Սպիտակ Ավազ
               </Link>
-              <Link to="/services/6" onClick={changeLocation1}>
+              <Link to="/services/6" onClick={() => changeLocation1(6)}>
                 Բանվորական ՈՒժ
               </Link>
             </div>
@@ -60,12 +62,12 @@ const Footer = () => {
           >
             <img width={30} src={imgs.instagram} alt="Instagram img" />
           </NavLink>
-          <span title="+374 77-29-95-61 +374 55-29-05-61">
+          <a href="https://wa.me/77299561?text=Hello%20World">
             <img width={35} src={imgs.whatsApp} alt="WhatsApp img" />
-          </span>
-          <span title="+374 77-29-95-61 +374 55-29-05-61">
+          </a>
+          <a href="viber://chat?number=77299561">
             <img width={35} src={imgs.viber} alt="Viber img" />
-          </span>
+          </a>
         </div>
       </div>
       <div className="footerBottom container">
