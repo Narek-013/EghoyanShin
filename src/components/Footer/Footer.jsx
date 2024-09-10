@@ -88,7 +88,7 @@ const Footer = () => {
           <a href="https://wa.me/77299561?text=Բարև%20ձեզ">
             <img width={35} src={imgs.whatsApp} alt="WhatsApp img" />
           </a>
-          <a href="viber://pa?chatURI=+37477299561">
+          <a href="viber://chat?number=%2B37477299561">
             <img width="35" src={imgs.viber} alt="Viber img" />
           </a>
         </div>
