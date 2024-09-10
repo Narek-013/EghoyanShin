@@ -71,8 +71,8 @@ const NavigationMenu = () => {
             <div className="numberBox">
               <img src={imgs.phone} alt="phone img" />
               <div className="numberDiv">
-                <a href="tel:+374 (055) 290 561">+374 (055) 290 561</a>
-                <a href="tel:+374 (077) 299 561">+374 (077) 299 561</a>
+                <a href="tel:+37455290561">+374 55 290 561</a>
+                <a href="tel:+37477299561">+374 77 299 561</a>
               </div>
             </div>
           </div>
