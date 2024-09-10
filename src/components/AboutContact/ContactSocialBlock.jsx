@@ -3,9 +3,9 @@ import { imgs } from "../../images/img.js";
 const ContactSocialBlock = () => {
   return (
     <div className="leftContact">
-      <h3 className="text-xl font-bold text-white my-2 lightModT">
+      <h4 className="text-xl font-bold text-white my-2 lightModT">
         Եկեք Միացնենք
-      </h3>
+      </h4>
       <p className="infoContactLeft">
         Դուք կարող եք կապվել մեզ հետ՝ օգտագործելով հետևյալ տարբերակները
         հեռախոսահամարով, WhatsApp, Viber, instagram, TikTok

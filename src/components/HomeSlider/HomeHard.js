@@ -1,9 +1,10 @@
-import avaz from "../../images/png/aboutImg.png";
-import avaz1 from "../../images/png/homePage3.jpg";
-import avaz2 from "../../images/png/homePageImg2.webp";
-import avaz3 from "../../images/png/workers.jpg";
-import avaz4 from "../../images/png/homePageImg2.webp";
-import avaz5 from "../../images/png/ServicesImg/img2.jpg"
+import avaz from "../../images/sliderPng/shin6.avif";
+import avaz3 from "../../images/sliderPng/shin8.avif";
+import avaz1 from "../../images/sliderPng/shin1.avif";
+// import avaz2 from "../../images/sliderPng/shin5.avif";
+import avaz4 from "../../images/sliderPng/shin3.avif";
+import avaz5 from "../../images/sliderPng/shin7.avif";
+import avaz2 from "../../images/sliderPng/shin9.avif";
 
 export const hardHomeSlider = [
   avaz,
@@ -12,5 +13,4 @@ export const hardHomeSlider = [
   avaz3,
   avaz4,
   avaz5,
-  
 ]

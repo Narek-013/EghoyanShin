@@ -13,6 +13,7 @@ function PauseOnHover() {
     autoplay: true,
     autoplaySpeed: 2200,
     pauseOnHover: true,
+    arrows: false,
   };
   return (
     <div className="slider-container">

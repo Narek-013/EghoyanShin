@@ -25,7 +25,7 @@ export const ServiceItems = [
   },
   {
     id: 3,
-    title: "Աղբի եվ ՇինԱղբի Տեղափոխում",
+    title: "Աղբի եվ Շինաղբի Տեղափոխում",
     text: "Աղբը և աղբահանությունը կարևոր են մաքրության և հիգիենայի պահպանման համար .",
     image: imgs.services.servicesImg1,
     text2:
