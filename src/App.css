@@ -15,7 +15,9 @@ ol {
 .container {
     max-width: 1440px;
     margin: auto;
-    
 }
 
+html{
+    scroll-behavior: smooth;
+}
 
