@@ -9,7 +9,7 @@ const About = () => {
     return (
       <div id="/about">
         <Helmet>
-          <title>mer masin</title>
+          <title>Մեր Մասին</title>
           <meta name="description" content="eghoyanshin.am" />
         </Helmet>
         <AboutMe />

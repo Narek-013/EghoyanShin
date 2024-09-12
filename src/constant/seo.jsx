@@ -1,17 +1,23 @@
 export const homeSeo = {
-    title:"shinararakan kazmakerputyun",
-    keywords: "eghoyanshin",
-    description: "eghoyanshin.am shinararakan kazmakerputyun",
-    ogType:"website",
-    ogURL:"https://eghoyanshin.am/"
+  title: "Գլխավոր",
+  keywords: "eghoyanshin,Գլխավոր Գլխավոր",
+  description: "eghoyanshin.am shinararakan kazmakerputyun",
+  ogType: "website",
+  ogURL: "https://eghoyanshin.am/",
 };
 
 export const aboutSeo = {
-  title: "mer masin",
-  keywords: "eghoyanshin ",
+  title: "Մեր Մասին",
+  keywords: "about me",
   description: "eghoyanshin.am shinararakan kazmakerputyun",
   ogType: "website",
-  ogURL: "https://eghoyanshin.am/"
+  ogURL: "https://eghoyanshin.am/",
 };
 
-
+export const serviceSeo = {
+  title: "Ծառայություններ",
+  keywords: "service",
+  description: "eghoyanshin.am shinararakan kazmakerputyun",
+  ogType: "website",
+  ogURL: "https://eghoyanshin.am/",
+};
