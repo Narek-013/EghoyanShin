@@ -14,9 +14,7 @@ const Footer = () => {
   const changeLocation1 = (num) => {
     window.scrollTo({ behavior: "smooth", top: 0 });
     navigate(`/services/${num}`);
-    
   };
-
 
   return (
     <div className="footer">
@@ -62,6 +60,9 @@ const Footer = () => {
           >
             <img width={30} src={imgs.instagram} alt="Instagram img" />
           </NavLink>
+          <NavLink target="blank" to="https://www.facebook.com/people/Eghoyan-Shin/61565982871267/?mibextid=ZbWKwL">
+            <img width={30} src={imgs.faceBook} alt="facebook Img" />
+          </NavLink>
           <a href="https://wa.me/77299561?text=Hello%20World">
             <img width={35} src={imgs.whatsApp} alt="WhatsApp img" />
           </a>
@@ -84,6 +85,9 @@ const Footer = () => {
             to="https://www.instagram.com/eghoyan_shin?fbclid=IwZXh0bgNhZW0CMTAAAR3hNDNaQH02JAOTkFE43Z5inVrwDfDqLzNOAQ2PdQccGx_MMv4ghi_RiKA_aem_ZmFrZWR1bW15MTZieXRlcw"
           >
             <img width={30} src={imgs.instagram} alt="Instagram Img" />
+          </NavLink>
+          <NavLink target="blank" to="https://www.facebook.com/people/Eghoyan-Shin/61565982871267/?mibextid=ZbWKwL">
+            <img width={30} src={imgs.faceBook} alt="facebook Img" />
           </NavLink>
           <a href="https://wa.me/77299561?text=Բարև%20ձեզ">
             <img width={35} src={imgs.whatsApp} alt="WhatsApp img" />

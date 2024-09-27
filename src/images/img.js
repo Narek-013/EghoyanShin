@@ -16,6 +16,7 @@ import servicesImg1 from "./png/ServicesImg/Img1.jpg";
 import servicesImg2 from './png/ServicesImg/img2.jpg'
 import servicesImg3 from './png/ServicesImg/img3.jpg'
 import servicesImg4 from "./png/ServicesImg/img4.jpg";
+import faceBook from "./png/facebook.png"
 
 
 
@@ -31,6 +32,7 @@ export const imgs = {
   aboutImg,
   aboutMeImg,
   aboutMeImg,
+  faceBook,
   homeImgss: {
     aboutImg,
     homeImg2,
