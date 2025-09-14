@@ -51,7 +51,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="secondPart">
-          <NavLink to="https://www.tiktok.com/@vahan.egoyan?_t=8nHdpY6ZkbR&_r=1" target="blank">
+          <NavLink to="https://www.tiktok.com/@eghoyan_shin?_t=ZS-8zhNu6Wcjz7&_r=1" target="blank">
             <img width={30} src={imgs.tiktok} alt="Tik Tok img" />
           </NavLink>
           <NavLink
@@ -77,7 +77,7 @@ const Footer = () => {
           <a href="mailto:eghoyan.shin@gmail.com">eghoyan.shin@gmail.com</a>
         </div>
         <div className="secondPart1">
-          <NavLink to="https://www.tiktok.com/@vahan.egoyan?_t=8nHdpY6ZkbR&_r=1" target="blank">
+          <NavLink to="https://www.tiktok.com/@eghoyan_shin?_t=ZS-8zhNu6Wcjz7&_r=1" target="blank">
             <img width={30} src={imgs.tiktok} alt="Tik Tok img" />
           </NavLink>
           <NavLink
